@@ -12,3 +12,15 @@ for (int i = 0; i < a.Length; i++)
     Console.Write($"Введите a[{i}]: ");
     a[i] = int.Parse(Console.ReadLine()); 
 }
+int sum = 0;
+sum = sum + 3;
+sum += 3;
+for (int i = 0; i < a.Length; i++)
+{
+    sum += a[i];
+}
+Console.WriteLine($"Сумма 10 элементов массива: {sum}");
+
+
+
+
